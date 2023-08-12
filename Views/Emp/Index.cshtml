@@ -1,0 +1,44 @@
+﻿@model IEnumerable<singlePage.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+<html>
+<head>
+
+
+
+    s
+
+</head>
+<body>
+
+    <h2>Index</h2>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">Address</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+
+    </table>
+    <input type="button" class="btn btn-primary" onclick="AddCustomer();" value="Add new" name=" btnN" />
+    <input type="button" class="btn btn-primary" onclick="Updating();" value=" Update"/>
+    <div id="DataEnt">
+
+    </div>
+    <div id="DataUp">
+
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="~/Scripts/Employee.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxy/1.6.1/scripts/jquery.ajaxy.js" integrity="sha512-4WpSQe8XU6Djt8IPJMGD9Xx9KuYsVCEeitZfMhPi8xdYlVA5hzRitm0Nt1g2AZFS136s29Nq4E4NVvouVAVrBw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
